@@ -93,3 +93,9 @@ D:\eCommerce\API\eCommerceAPI\eCommerceAPI\bin\Debug\netcoreapp3.1\ru\Microsoft.
 D:\eCommerce\API\eCommerceAPI\eCommerceAPI\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\eCommerce\API\eCommerceAPI\eCommerceAPI\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\eCommerce\API\eCommerceAPI\eCommerceAPI\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\eCommerce\API\eCommerceAPI\eCommerceAPI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\eCommerce\API\eCommerceAPI\eCommerceAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\eCommerce\API\eCommerceAPI\eCommerceAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\eCommerce\API\eCommerceAPI\eCommerceAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\eCommerce\API\eCommerceAPI\eCommerceAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\eCommerce\API\eCommerceAPI\eCommerceAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

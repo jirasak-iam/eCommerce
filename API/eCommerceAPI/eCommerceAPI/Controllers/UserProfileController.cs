@@ -1,23 +1,29 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using eCommerceAPI.Entity;
+using eCommerceAPI.IRepositories;
 using Microsoft.AspNetCore.Mvc;
-using System.Data;
-using System.Data.SqlClient;
 using Microsoft.Extensions.Configuration;
+using System.Threading.Tasks;
 
 namespace eCommerceAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/UserProfile")]
     [ApiController]
     public class UserProfileController : ControllerBase
     {
-        private readonly IConfiguration _configuration;
-        public UserProfileController(IConfiguration configuration)
+        
+        private IUserProfileReposity _userProfileRepository;
+
+        public UserProfileController(IUserProfileReposity userProfileRepository)
         {
-            _configuration = configuration;
+            _userProfileRepository = userProfileRepository;
+        }
+
+        [HttpGet]
+        [Route("/UserProfile/Login")]
+        public async Task<JsonResult> Login([FromBody] UserProfileQuery query)
+        {
+            var response = await _userProfileRepository.Login(query);
+            return new JsonResult(response);
         }
     }
 }
